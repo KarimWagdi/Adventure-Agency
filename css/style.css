@@ -1,0 +1,368 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+margin: 0;
+padding: 0;
+font-family: 'Roboto', sans-serif;
+line-height: 1.5;
+}
+.hedder{
+    background-image: url(../images/b1.jpg);
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+nav{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+nav ul li{
+    width: 100px;
+    height: 60px;
+    float: left;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    text-align: center;
+    height: 100%;
+    line-height: 60px;
+    color: white;
+}
+nav p{
+font-size: xx-large;
+color: white;
+}
+.lolo{
+border: 5px solid #FFC22C;
+width: 30%;
+height: 200px;
+position: absolute;
+left: 20%;
+top: 20%;
+text-align: center;
+
+transform:matrix(70%);
+}
+.shadow{
+    width: 100%;
+    height: 100%;
+    margin-top: 15%;
+    background-color: #fff9;
+    transform-origin: bottom left;
+    transform: translate(50% );
+}
+.shadow h3 {
+    padding-top: 50px;
+}
+.shadow h1{
+color: #FFC22C;
+}
+.container{
+    width: 70%;
+    margin: 50px auto;
+    perspective: 700px;
+    position: relative;
+    display: flex;
+    justify-content:space-between;
+}
+.card{
+    position:relative;
+    width: 250px;
+    height: 320px;
+    margin: auto;
+    transition: all 1s;
+    transform-style: preserve-3d;
+    margin-left: 40px;
+}
+.front{
+    width: 100%;
+    height: 100%;
+    background: url(../images/Mohamed-Salah.jpg) no-repeat center/100% 100%;
+    position: absolute;
+    backface-visibility: hidden;
+}
+
+.front img{
+    width: 100%;
+height: 100%;
+}
+
+.back{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    padding: 15px;
+    box-sizing: border-box;
+    transform: rotateY(180deg);
+    backface-visibility: hidden;
+}
+
+.back h2{
+color: #FFC22C;
+}
+.card:hover{
+    transform: rotateY(180deg);
+} 
+.section_1{
+    background-image: url(../images/b3.jpg);
+    width: 100%;
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: #FFC22C;
+    padding-top:30px ;
+}
+.section_1 h2{
+    color: white;
+}
+.type{
+    width: 70%;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.types{
+border: 2px solid white;
+border-radius: 50%;
+width: 100px;
+height:100px;
+text-align: center;
+line-height: 50px;
+}
+
+.offers{
+width: 80%;
+text-align: center;
+margin: auto;
+}
+.off{
+display: flex;
+justify-content: space-between;
+margin: 20px 20px;
+}
+.offer{
+    text-align: left;
+    border: 3px solid grey;
+    width: 30%;
+    height: 200px;
+    padding-left: 10px;
+    box-shadow:4px 4px 4px 4px #000;
+}
+.offers h3{
+color: rgb(0, 128, 100);
+margin-top:40px ;
+}
+.offer i{
+    margin-left: 0;
+    margin-top: 20px;
+}
+.section_2{
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+    background-color: rgb(177, 174, 174);
+}
+.s1{
+    width: 90%;
+    height: 100%;
+}
+.s2{
+width: 50%;
+margin-top: 50px;
+
+}
+.empty{
+    width: 350px;
+    height: 150px;
+    border: 5px rgb(0, 128, 100) solid ;
+    position: relative;
+    right: 400px;
+    bottom: 150px;
+}
+.s2 h1{
+color:rgb(0, 128, 100);
+}
+
+.gallery{
+    width: 80%;
+    margin: 30px auto;
+}
+.gallery h1{
+    color: #FFC22C;
+}
+.g1{
+    text-align: center;
+}
+.g2{
+display: flex;
+justify-content: space-around;
+}
+.g3{
+width: 50%;
+}
+
+.small_img{
+    width: 40%;
+    height: 250px;
+    margin: 20px;
+}
+.big_img{
+    width: 90%;
+    height: 250px;
+    margin: 20px;
+}
+.section_3{
+width: 100%;
+}
+.one{
+    width: 50%;
+    height: 250px;
+    background-color: rgb(197, 195, 195);
+    padding: 40px 30px 20px 30px;
+}
+.tow{
+    width: 50%;
+    height: 250px;
+    background-image: url(../images/b4.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 40px 30px 20px 30px;
+}
+.top_3{
+    display: flex;
+}
+.three{
+    width: 50%;
+    height: 250px;
+    background-image: url(../images/g6.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 40px 30px 20px 30px;
+}
+.bottom_3{
+    display: flex;
+}
+.section_3 fieldset{
+border: 0;
+}
+.section_3 input{
+    width: 90px;
+    height: 40px;
+    margin-top: 20px;
+    background-color: rgb(39, 37, 37);
+    color: white;
+}
+.section_3 h1{
+    color: rgb(0, 128, 100);
+}
+.section_4{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    margin-top: 30px;
+}
+.section_4 h1{
+color: #FFC22C;
+}
+.booking{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.booking img{
+    width: 220px;
+}
+.booking h3 {
+    color: #FFC22C;
+}
+.section_5{
+    text-align: center;
+width: 100%;
+height: 200px;
+margin-top: 40px;
+padding-top: 100px;
+background-image: url(../images/b4.jpg);
+background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    line-height: 2;
+    color: white;
+}
+.section_5 h1{
+    color: #FFC22C;
+    margin: 20px 0 30px 0;
+}
+.section_5 fieldset{
+    height: 30px;
+border: 20px solid #fff7;
+width: 20%;
+margin: auto;
+padding: 0px;
+}
+.section_5 #email{
+    height: 100%;
+    width: 180px;
+    background-color: white;
+}
+.section_5 input{
+width: 80px;
+height: 100%;
+background-color: green;
+}
+.section_6{
+    width: 70%;
+    margin: 20px auto;
+    text-align: center;
+}
+.section_6 h1{
+    color: #FFC22C;
+    margin: 20px;
+}
+.s6{
+    display: flex;
+    justify-content: space-around;
+}
+.map{
+    width: 450px;
+}
+.forms fieldset{
+    border: 0px;
+    margin: 20px;
+}
+.send{
+    width: 100%;
+    background-color: green;
+    height: 30px;
+    border: 0px;
+}
+#massage{
+    width: 100%;
+}
+.last_section{
+width: 100%;
+height: 250px;
+background-color: rgb(28, 28, 29);
+text-align: center;
+color: white;
+padding-top: 80px;
+}
+
+marquee{
+    height: 40px;
+    background-color: #000;
+    padding-top: 20px;
+    color: white;
+    }
